@@ -1,7 +1,8 @@
 <template>
   <div id="home" class="d-flex mt-5 ml-5">
-  	<User />
-  	<PostsFeed :posts="posts" />
+  	<User :user="user" />
+  	<PostsFeed :posts="posts" :user="user"/>
+  	<Following :user="user" :people="people"/>
   </div>
 </template>
 
@@ -9,12 +10,19 @@
 
 import User from '../components/User'
 import PostsFeed from '../components/PostsFeed'
+import Following from '../components/Following'
 
 export default {
   name: 'Home',
-  components: { User, PostsFeed },
+  components: { User, PostsFeed, Following },
   props: {
 		posts: {
+			type: Array
+		},
+		user: {
+			type: Object
+		},
+		people: {
 			type: Array
 		}
 	}
