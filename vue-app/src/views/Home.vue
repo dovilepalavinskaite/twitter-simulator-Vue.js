@@ -1,5 +1,5 @@
 <template>
-  <div id="home" class="d-flex mt-5 ml-5">
+  <div id="home" class="row mt-5 ml-5">
   	<User :user="user" />
   	<PostsFeed :posts="posts" :user="user"/>
   	<Following :user="user" :people="people"/>

@@ -1,6 +1,6 @@
 <template>
 	<div id ="user" class="col-md-3">
-		<div class="card" style="width: 25rem;">
+		<div class="card" style="min-width: 100%">
 		  <img class="card-img-top" src="../assets/images/patern.png" alt="Card background image">
 		  <div class="card-body">
 		  	<div class="d-flex">

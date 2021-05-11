@@ -1,6 +1,6 @@
 <template>
-	<div id="following">
-		<div class="card" style="width: 25rem;">
+	<div id="following" class="col-md-3 mb-4">
+		<div class="card" style="min-width: 100%;">
 		  <div class="card-body">
 		    <h5 class="font-weight-bold">Who to follow?</h5>
 		  </div>
