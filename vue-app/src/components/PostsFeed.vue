@@ -83,6 +83,7 @@ export default {
 					fullname: this.user.fullName,
 					username: this.user.userName,
 					post: this.newMsg,
+					img: "user-round.png",
 					likes: 0,
 					comments: 0
 				})
@@ -120,7 +121,6 @@ export default {
 .fa-heart-active {
 	color: red;
 }
-
 .text-area.--exceeded {
 	color: red;
 	border-color: red;

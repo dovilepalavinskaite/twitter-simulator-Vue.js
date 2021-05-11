@@ -51,7 +51,8 @@ export default {
         fullName: 'Dovile Pakalne',
         tweets: 0,
         followers: 0,
-        following: 0
+        following: 0,
+        img: '../assets/images/user-round.png'
       },
       people:
       [
